@@ -1,0 +1,41 @@
+---
+common-css:
+- "/css/normalize.css"
+- "/css/animations.css"
+- "/css/bootstrap.css"
+- "/css/style.css"
+- "/css/magnific-popup.css"
+- "/fontawesome-pro/css/all.min.css"
+common-js:
+- "/js/jquery-2.2.4.min.js"
+- "/js/menu-animation.js"
+- "/js/easings.js"
+- "/js/main.js"
+- "/js/particles.js"
+- "/js/typed.min.js"
+- "/js/isotope.pkgd.min.js"
+- "/js/jquery.magnific-popup.js"
+- "/js/lazyload.min.js"
+---
+
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+{% include head.html %}
+<body class="body-wrapper render">
+    {% include loader.html %}
+    <div id="main-container">
+        {% include menu.html %}
+        <div id="content-container" class="content-container height-one">
+            <div id="pages-container" class="pages-container pages-perspective">
+                {{ content }}
+            </div>
+        </div>
+        <svg class="shape-overlays" viewBox="0 0 100 100" preserveAspectRatio="none">
+            <path class="shape-overlays__path" d=""></path>
+            <path class="shape-overlays__path" d=""></path>
+            <path class="shape-overlays__path" d=""></path>
+        </svg>
+        {% include footer_scripts.html %}
+    </div>
+</body>
+</html>

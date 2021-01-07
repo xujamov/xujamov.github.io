@@ -1,0 +1,45 @@
+# --- Serving options --- #
+
+url: "https://xujamov.github.io"
+baseurl: ""
+
+title: "Doniyor Khujamov's personal website"
+description: "Programmer from Uzbekistan"
+avatar: "/img/doniyor1.jpg"
+
+timezone: "Asia/Tashkent"
+markdown: kramdown
+highlighter: rouge
+paginate: 5
+paginate_path: "/blog/page:num/"
+excerpt_separator: <!--more-->
+
+disqus: "xujamov"
+
+google_analytics: "UA-134202028-1"
+
+# Default YAML values (more information on Jekyll's site)
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      comments: true  # add comments to all blog posts
+      show-share: true # add sharing buttons to all blog posts
+      show-subscribe: true # add subscribe email to all blog posts
+  -
+    scope:
+      path: "" # all files
+    values:
+      layout: "page"
+      show-avatar: true
+
+author:
+  name: Doniyor Xujamov
+  email: "doniyorprince95@gmail.com"
+  facebook: khujamov
+  github: xujamov
+  twitter: doniyor_xujamov
+  linkedin: doniyor_xujamov
