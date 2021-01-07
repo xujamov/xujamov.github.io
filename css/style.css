@@ -460,8 +460,8 @@ body {
 /* 4. HOME PAGE */
 /*------------------------------------------------------------------------------------------*/
 #home-page {
-    background-size: cover;
-    background: url('/img/doniyor_home.jpg') no-repeat 90% 90%;
+    background-size: auto;
+    background: url('/img/doniyor_home.jpg') no-repeat 50% 50%;
     overflow: hidden;
 }
 #particles-js{
