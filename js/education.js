@@ -1,5 +1,30 @@
 var awards = [
         {
+            "title": "Intellectual Generation of Uzbekistan",
+            "by": "Rector of TUIT",
+            "url": "/img/certificates/2017.04.17.jpg"
+        },
+        {
+            "title": "Certificate of appreciation by Urgench branch of TUIT",
+            "by": "Rector of Urgench branch of TUIT",
+            "url": "/img/certificates/2017.01.19.jpg"
+        },
+        {
+            "title": "Certificate of appreciation by Urgench branch of TUIT",
+            "by": "Rector of Urgench branch of TUIT",
+            "url": "/img/certificates/2015.04.03.jpg"
+        },
+        {
+            "title": "Certificate of achievement for second place at the contest",
+            "by": "Rector of Urgench branch of TUIT",
+            "url": "/img/certificates/2015.03.21.jpg"
+        },
+        {
+            "title": "Certificate of achievement for third place at the competition \"Akademik litsey bilimdoni\"",
+            "by": "Rector of lyceum №3",
+            "url": "/img/certificates/2014.03.18.jpg"
+        },
+        {
             "title": "Zertifikat TestAS",
             "by": "Goethe-Institut Taschkent, october 26, 2013",
             "url": "/img/certificates/2013.10.26.jpg"
