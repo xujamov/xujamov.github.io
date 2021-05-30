@@ -101,6 +101,29 @@ var awards = [
         },
     ]
 ;
+let dgu = [
+        {
+            "title": "O'zbek tilining statistik elektron lug'ati",
+            "by": "December 9, 2020",
+            "url": "/img/dgu/lugat.jpg"
+        },
+        {
+            "title": "Bino va inshootlar restavratsiyasi",
+            "by": "July 19, 2017",
+            "url": "/img/dgu/OquvQollanma.JPG"
+        },
+        {
+            "title": "Deshon Qal'a va Xiva tumanidagi tarixiy va me'moriy yodgorliklar bo'yicha ma'lumotlar bazasi",
+            "by": "July 18, 2017",
+            "url": "/img/dgu/DeshonQala.JPG"
+        },
+        {
+            "title": "Janubiy Orolbo'yi me'moriy yodgorliklari",
+            "by": "July 17, 2017",
+            "url": "/img/dgu/IchanQala.JPG"
+        },
+    ]
+;
 $(document).ready(function () {
     $('.popup-gallery').magnificPopup({
         delegate: 'a',
@@ -134,6 +157,23 @@ $(document).ready(function () {
         elem += "<p class='certificate-text'>" + awards[i].title + "</p>";
         elem += "</a></div>";
         if (i === awards.length - 1)
+            div.innerHTML += elem + "</div>";
+    }
+    div = document.getElementsByClassName('popup-gallery')[1];
+    elem = "<div class='row'>";
+    for (let i = 0; i < dgu.length; i++) {
+        if (i % 4 === 0 && i !== 0) {
+            elem += "</div>";
+            div.innerHTML += elem;
+            elem = "<div class='row'>";
+        }
+        elem += "<div class=\"col-md-3 certificate\">";
+        elem += "<a href=\"" + dgu[i].url + "\" title=\"" + dgu[i].title + "\"";
+        elem += "data-by=\"" + dgu[i].by + "\">";
+        elem += "<img class=\"certificate-item\" src='/img/loader.svg' data-src=\"" + dgu[i].url + "\">";
+        elem += "<p class='certificate-text'>" + dgu[i].title + "</p>";
+        elem += "</a></div>";
+        if (i === dgu.length - 1)
             div.innerHTML += elem + "</div>";
     }
     new LazyLoad();
