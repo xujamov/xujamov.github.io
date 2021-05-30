@@ -1,5 +1,40 @@
 var awards = [
         {
+            "title": "Certificate of Completion",
+            "by": "One Million Uzbek Coders",
+            "url": "/img/certificates/2021.05.04.jpg"
+        },
+        {
+            "title": "Certificate of Participation",
+            "by": "One Million Uzbek Coders",
+            "url": "/img/certificates/2021.05.03.jpg"
+        },
+        {
+            "title": "Certificate of Completion",
+            "by": "One Million Uzbek Coders",
+            "url": "/img/certificates/2021.05.01.jpg"
+        },
+        {
+            "title": "Certificate of Participation",
+            "by": "One Million Uzbek Coders",
+            "url": "/img/certificates/2021.05.02.jpg"
+        },
+        {
+            "title": "Certificate for publication of research article",
+            "by": "An international multidisciplinary research journal",
+            "url": "/img/certificates/2021.03.01.jpg"
+        },
+        {
+            "title": "Certificate of Completion",
+            "by": "BEONMAX",
+            "url": "/img/certificates/2020.07.30.jpg"
+        },
+        {
+            "title": "Certificate of Completion",
+            "by": "BEONMAX",
+            "url": "/img/certificates/2020.07.15.jpg"
+        },
+        {
             "title": "Intellectual Generation of Uzbekistan",
             "by": "Rector of TUIT",
             "url": "/img/certificates/2017.04.17.jpg"
@@ -28,6 +63,41 @@ var awards = [
             "title": "Zertifikat TestAS",
             "by": "Goethe-Institut Taschkent, october 26, 2013",
             "url": "/img/certificates/2013.10.26.jpg"
+        },
+        {
+            "title": "Certificate of Participation",
+            "by": "Liebegschule in Giessen",
+            "url": "/img/certificates/2013.06.18.jpg"
+        },
+        {
+            "title": "Goethe Zertifikat B1",
+            "by": "Goethe-Institut Taschkent, february 9, 2013",
+            "url": "/img/certificates/2013.02.09.jpg"
+        },
+        {
+            "title": "Goethe Zertifikat A1",
+            "by": "Goethe-Institut Taschkent, october 2, 2012",
+            "url": "/img/certificates/2012.10.02.jpg"
+        },
+        {
+            "title": "Goethe Zertifikat A1",
+            "by": "Goethe-Institut Taschkent, october 2, 2012",
+            "url": "/img/certificates/2012.10.02.jpg"
+        },
+        {
+            "title": "Certificate of Honor for the first degree for the first place at the Olympiad in mathematics.",
+            "by": "Director of urban public education",
+            "url": "/img/certificates/2011.10.1.png"
+        },
+        {
+            "title": "Diploma of the first degree for the first place at the Olympiad in mathematics.",
+            "by": "Mayor of Urgench",
+            "url": "/img/certificates/2010.10.01.jpg"
+        },
+        {
+            "title": "Certificate of Honor for excellent study",
+            "by": "Director of school",
+            "url": "/img/certificates/2010.05.25.jpg"
         },
     ]
 ;
