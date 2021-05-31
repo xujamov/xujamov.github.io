@@ -100,11 +100,6 @@ var awards = [
             "url": "/img/certificates/2012.10.02.jpg"
         },
         {
-            "title": "Goethe Zertifikat A1",
-            "by": "Goethe-Institut Taschkent, october 2, 2012",
-            "url": "/img/certificates/2012.10.02.jpg"
-        },
-        {
             "title": "Certificate of Honor for the first degree for the first place at the Olympiad in mathematics.",
             "by": "Director of urban public education",
             "url": "/img/certificates/2011.10.1.png"
@@ -118,6 +113,34 @@ var awards = [
             "title": "Certificate of Honor for excellent study",
             "by": "Director of school",
             "url": "/img/certificates/2010.05.25.jpg"
+        },
+    ]
+;
+var lang = [
+        {
+            "title": "Certificate IELTS",
+            "by": "EDU ACTION EXAM CENTRE, july 20, 2019",
+            "url": "/img/certificates/2019.08.02.jpg"
+        },
+        {
+            "title": "Zertifikat TestAS",
+            "by": "Goethe-Institut Taschkent, october 26, 2013",
+            "url": "/img/certificates/2013.10.26.jpg"
+        },
+        {
+            "title": "Certificate of Participation",
+            "by": "Liebegschule in Giessen",
+            "url": "/img/certificates/2013.06.18.jpg"
+        },
+        {
+            "title": "Goethe Zertifikat B1",
+            "by": "Goethe-Institut Taschkent, february 9, 2013",
+            "url": "/img/certificates/2013.02.09.jpg"
+        },
+        {
+            "title": "Goethe Zertifikat A1",
+            "by": "Goethe-Institut Taschkent, october 2, 2012",
+            "url": "/img/certificates/2012.10.02.jpg"
         },
     ]
 ;
@@ -180,6 +203,23 @@ $(document).ready(function () {
             div.innerHTML += elem + "</div>";
     }
     div = document.getElementsByClassName('popup-gallery')[1];
+    elem = "<div class='row'>";
+    for (let i = 0; i < lang.length; i++) {
+        if (i % 4 === 0 && i !== 0) {
+            elem += "</div>";
+            div.innerHTML += elem;
+            elem = "<div class='row'>";
+        }
+        elem += "<div class=\"col-md-3 certificate\">";
+        elem += "<a href=\"" + lang[i].url + "\" title=\"" + lang[i].title + "\"";
+        elem += "data-by=\"" + lang[i].by + "\">";
+        elem += "<img class=\"certificate-item\" src='/img/loader.svg' data-src=\"" + lang[i].url + "\">";
+        elem += "<p class='certificate-text'>" + lang[i].title + "</p>";
+        elem += "</a></div>";
+        if (i === lang.length - 1)
+            div.innerHTML += elem + "</div>";
+    }
+    div = document.getElementsByClassName('popup-gallery')[2];
     elem = "<div class='row'>";
     for (let i = 0; i < dgu.length; i++) {
         if (i % 4 === 0 && i !== 0) {
