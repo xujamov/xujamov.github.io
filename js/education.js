@@ -80,26 +80,6 @@ var awards = [
             "url": "/img/certificates/2014.03.18.jpg"
         },
         {
-            "title": "Zertifikat TestAS",
-            "by": "Goethe-Institut Taschkent, october 26, 2013",
-            "url": "/img/certificates/2013.10.26.jpg"
-        },
-        {
-            "title": "Certificate of Participation",
-            "by": "Liebegschule in Giessen",
-            "url": "/img/certificates/2013.06.18.jpg"
-        },
-        {
-            "title": "Goethe Zertifikat B1",
-            "by": "Goethe-Institut Taschkent, february 9, 2013",
-            "url": "/img/certificates/2013.02.09.jpg"
-        },
-        {
-            "title": "Goethe Zertifikat A1",
-            "by": "Goethe-Institut Taschkent, october 2, 2012",
-            "url": "/img/certificates/2012.10.02.jpg"
-        },
-        {
             "title": "Certificate of Honor for the first degree for the first place at the Olympiad in mathematics.",
             "by": "Director of urban public education",
             "url": "/img/certificates/2011.10.1.png"
