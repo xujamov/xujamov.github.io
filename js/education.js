@@ -25,6 +25,26 @@ var awards = [
             "url": "/img/certificates/2021.03.01.jpg"
         },
         {
+            "title": "Certificate of assessment for the skill JavaScript(Basic)",
+            "by": "An international multidisciplinary research journal",
+            "url": "/img/certificates/2021.01.13.png"
+        },
+        {
+            "title": "Certificate of assessment for the skill Python(Basic)",
+            "by": "An international multidisciplinary research journal",
+            "url": "/img/certificates/2021.01.12.png"
+        },
+        {
+            "title": "Certificate of assessment for the skill Java(Basic)",
+            "by": "An international multidisciplinary research journal",
+            "url": "/img/certificates/2021.01.12.2.png"
+        },
+        {
+            "title": "Certificate of assessment for the skill Problem Solving(Basic)",
+            "by": "An international multidisciplinary research journal",
+            "url": "/img/certificates/2020.12.12.png"
+        },
+        {
             "title": "Certificate of Completion",
             "by": "BEONMAX",
             "url": "/img/certificates/2020.07.30.jpg"
