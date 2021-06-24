@@ -1,5 +1,10 @@
 var awards = [
         {
+            "title": "Certificate of Participation",
+            "by": "Rector of TIIAME",
+            "url": "/img/certificates/2021.06.10.jpg"
+        },
+        {
             "title": "Certificate of Completion",
             "by": "One Million Uzbek Coders",
             "url": "/img/certificates/2021.05.04.jpg"
